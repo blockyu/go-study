@@ -1,11 +1,14 @@
 package main
 
-import "awesomeProject/goStudy/useful"
+import "go-study/myhashTable"
 
 func main() {
 	//myslice.TestSlice()
 	//mymap.TestMap()
 	//fmt.Println(myconst.ANAME)
 	//mystruct.TestStruct()
-	useful.Useful()
+	//useful.Useful()
+	//myTree.TestTree()
+	myhashTable.TestHashTable()
 }
+
