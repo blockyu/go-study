@@ -15,7 +15,10 @@ limitations under the License.
 */
 package main
 
-import "github.com/blockyu/go-study/cmd"
+import (
+	"github.com/blockyu/cmd/root"
+	"github.com/spf13/cobra/cobra/cmd"
+)
 
 func main() {
 	cmd.Execute()
